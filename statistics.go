@@ -1,3 +1,10 @@
+// Erik Oomen, jul 2019
+//
+// Sends some useless statistics to a business_stats topic, based on
+// messages received in the business topic.
+//
+// Warning, not written for stability or performance
+
 package main
 
 import (
